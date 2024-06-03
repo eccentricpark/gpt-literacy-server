@@ -9,7 +9,7 @@ def read_json_file(file='./prompt.json'):
 def __get_ai_response(message):
     try:
         response = get_openai_object().chat.completions.create(
-            model="gpt-3.5-turbo-1106", 
+            model="gpt-3.5-turbo-1106",
             messages=[
                 read_json_file()
                 ,*message],

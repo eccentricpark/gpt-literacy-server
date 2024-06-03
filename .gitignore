@@ -1,4 +1,5 @@
 .env
 .env.*
 prompt.json
+prompt.*.json
 __pycache__
